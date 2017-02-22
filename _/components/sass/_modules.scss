@@ -1,0 +1,12 @@
+// Photogrid ---------------------------------------------
+.pixgrid {
+  @include clearfix;
+
+  img {
+    @include border-radius;
+    width: 30%;
+    max-width: 160px;
+    cursor: pointer;
+    float: none !important;
+  } // img
+} // pixgrid
